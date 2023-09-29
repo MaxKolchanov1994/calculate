@@ -1,0 +1,70 @@
+body {
+	background-color: rgb(138, 129, 161);
+	box-sizing: border-box;
+}
+.conteiner {
+	text-align: center;
+}
+.plus {
+	width: 100px;
+	background-color: green;
+	border: none;
+	border-radius: 30px;
+	margin: 5px;
+}
+.minus {
+	width: 100px;
+	background-color: brown;
+	border: none;
+	border-radius: 30px;
+	margin: 5px;
+}
+.minus:focus,
+.plus:focus,
+.division:focus,
+.multiplication:focus {
+	background: #0e83c7;
+}
+
+.calculate {
+	background-color: rgb(64, 64, 238);
+	width: 300px;
+	border: none;
+	border-radius: 30px;
+	margin: 5px;
+}
+.result {
+	padding-top: 20px;
+	padding-right: 80px;
+	border-radius: 30px;
+	margin: auto;
+	width: 50%;
+	height: 30px;
+	background: #813434;
+}
+.input1 {
+	background: #7c9fa5;
+	border: none;
+	border-radius: 5px;
+	margin: 2px;
+}
+.input2 {
+	background: #7c9fa5;
+	border: none;
+	border-radius: 5px;
+	margin: 2px;
+}
+.division {
+	width: 100px;
+	background-color: brown;
+	border: none;
+	border-radius: 30px;
+	margin: 5px;
+}
+.multiplication {
+	width: 100px;
+	background-color: green;
+	border: none;
+	border-radius: 30px;
+	margin: 5px;
+}
